@@ -14,6 +14,7 @@
 		9F715EBE1C7FEAA800041DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F715EBC1C7FEAA800041DAD /* LaunchScreen.storyboard */; };
 		9F715EC91C7FEAA800041DAD /* NSDate_ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F715EC81C7FEAA800041DAD /* NSDate_ExtensionTests.swift */; };
 		9F715ED41C7FEAA800041DAD /* NSDate_ExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F715ED31C7FEAA800041DAD /* NSDate_ExtensionUITests.swift */; };
+		9F715EE21C7FEAE100041DAD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F715EE11C7FEAE100041DAD /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9F715ECF1C7FEAA800041DAD /* NSDate_ExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDate_ExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F715ED31C7FEAA800041DAD /* NSDate_ExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDate_ExtensionUITests.swift; sourceTree = "<group>"; };
 		9F715ED51C7FEAA800041DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F715EE11C7FEAE100041DAD /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9F715EB31C7FEAA800041DAD /* AppDelegate.swift */,
 				9F715EB51C7FEAA800041DAD /* ViewController.swift */,
+				9F715EE11C7FEAE100041DAD /* Extension.swift */,
 				9F715EB71C7FEAA800041DAD /* Main.storyboard */,
 				9F715EBA1C7FEAA800041DAD /* Assets.xcassets */,
 				9F715EBC1C7FEAA800041DAD /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F715EE21C7FEAE100041DAD /* Extension.swift in Sources */,
 				9F715EB61C7FEAA800041DAD /* ViewController.swift in Sources */,
 				9F715EB41C7FEAA800041DAD /* AppDelegate.swift in Sources */,
 			);
@@ -398,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSDate_Extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LQB.NSDate-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSDate_Extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LQB.NSDate-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
