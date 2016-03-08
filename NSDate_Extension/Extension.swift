@@ -69,11 +69,11 @@ class NSDateTool: NSObject {
                     return "刚刚";
                 }
             }else {
-                dateFormatter.dateFormat = "MM--dd HH:mm";
+                dateFormatter.dateFormat = "MM-dd HH:mm";
                 return dateFormatter.stringFromDate(preDate);
             }
         }else {
-            dateFormatter.dateFormat = "yyyy--MM--dd HH:mm";
+            dateFormatter.dateFormat = "yyyy-MM-dd HH:mm";
             return dateFormatter.stringFromDate(preDate);
         }
     }
